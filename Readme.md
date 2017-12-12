@@ -23,23 +23,23 @@ A seu desafio é elaborar um sistema em Java capaz de:
 
 Casos de uso:
 
-1. Caso de uso: Cadastro com sucesso:
-	1.1. O usuário 'Felipe' cadastra seu nome, email e telefone e escolhe a lista vingadores.json 
-	1.2. O sistema recebe o cadastro e verifica se ainda há codinomes disponíveis na lista vingadores.json
-	1.3. O sistema encontra um codinome livre e o escolhe
-	1.4. O sistema persiste o nome, email, telefone, codinome e arquivo de referência num banco de dados em memória ou num arquivo
-	1.5. O sistema informa que o usuário foi cadastrado corretamente e mostra uma imagem de sucesso
++ Caso de uso: Cadastro com sucesso:
+	1. O usuário 'Felipe' cadastra seu nome, email e telefone e escolhe a lista vingadores.json 
+	2. O sistema recebe o cadastro e verifica se ainda há codinomes disponíveis na lista vingadores.json
+	3. O sistema encontra um codinome livre e o escolhe
+	4. O sistema persiste o nome, email, telefone, codinome e arquivo de referência num banco de dados em memória ou num arquivo
+	5. O sistema informa que o usuário foi cadastrado corretamente e mostra uma imagem de sucesso
 	
-2. Caso de uso: Lista escolhida não tem codinomes disponíveis:
-	2.1. O usuário 'João' cadastra seu nome, email e telefone e escolhe a lista liga_da_justica.xml
-	2.2. O sistema recebe o cadastro e verifica se ainda há codinomes disponíveis na lista liga_da_justica.xml
-	2.3. O sistema não encontra um codinome livre
-	2.4. O sistema informa que aquela lista não possui mais usuários disponíveis
++ Caso de uso: Lista escolhida não tem codinomes disponíveis:
+	1. O usuário 'João' cadastra seu nome, email e telefone e escolhe a lista liga_da_justica.xml
+	2. O sistema recebe o cadastro e verifica se ainda há codinomes disponíveis na lista liga_da_justica.xml
+	3. O sistema não encontra um codinome livre
+	4. O sistema informa que aquela lista não possui mais usuários disponíveis
 
-3. Caso de uso: Relatório de usuários cadastrados:
-	3.1. O usuário 'Luis' clica em visualizar relatório de jogadores
-	3.2. O sistema consulta o banco de dados em memória ou o arquivo
-	3.3. O sistema apresenta todos os usuários cadastrados. Cada linha tem as informações: nome, email, telefone, codinome e arquivo referência
++  Caso de uso: Relatório de usuários cadastrados:
+	1. O usuário 'Luis' clica em visualizar relatório de jogadores
+	2. O sistema consulta o banco de dados em memória ou o arquivo
+	3. O sistema apresenta todos os usuários cadastrados. Cada linha tem as informações: nome, email, telefone, codinome e arquivo referência
 	
 ## Instruções
 
@@ -60,9 +60,10 @@ Faça um fork e clone deste projeto, crie um branch (com seu nome), e siga os pa
 Regras:
 1. Você poderá utilizar o Java em qualquer versão! :)
 2. Você poderá utilizar quaisquer frameworks da linguagem Java! :)
-3. Para persistir as informações você poderá utilizar um banco de dados em memória gerenciado por você ou utilizar um banco como HSQLDB. Você também pode optar por gravar em arquivo!
-4. Não vale utilizar um codinome de um mesmo arquivo mais de uma vez.
-5. Detalhes como criação de testes unitários, ordenação da lista de cadastrados ou filtro da lista são opcionais. Mas... se você conseguir fazer iremos apreciar ! 
+3. Para persistir as informações você poderá utilizar um banco de dados em memória gerenciado por você ou utilizar um banco como HSQLDB. 
+4. Você também pode optar por gravar em arquivo!
+5. Não vale utilizar um codinome de um mesmo arquivo mais de uma vez.
+6. Detalhes como criação de testes unitários, ordenação da lista de cadastrados ou filtro da lista são opcionais. Mas... se você conseguir fazer iremos apreciar ! 
 
 ## O que apreciamos
 * Organização;
