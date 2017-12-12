@@ -56,8 +56,8 @@ Não há certo ou errado. Queremos apenas saber mais sobre seus conhecimentos na
 2. Para montar seu sistema, leve em consideração a arquitetura de referência dentro da pasta referência
 3. Criar uma interface em HTML que contenha um formulário para receber nome, e-mail e telefone
 4. Criar uma interface em HTML que liste os jogadores cadastrados por nome, e-mail, telefone, codinome e lista de referência
-5. Criar uma ou mais classes que faça(m) uma requisição HTTP para o arquivo referência “Liga da Justiça” em:
-6. Criar uma ou mais classes que faça(m) uma requisição HTTP para o arquivo referência “Os Vingadores” em:
+5. Criar uma ou mais classes que faça(m) uma requisição HTTP para o arquivo referência “Liga da Justiça” em: https://raw.githubusercontent.com/uolhost/test-backEnd-Java/master/referencias/liga_da_justica.xml
+6. Criar uma ou mais classes que faça(m) uma requisição HTTP para o arquivo referência “Os Vingadores” em: https://raw.githubusercontent.com/uolhost/test-backEnd-Java/master/referencias/vingadores.json
 7. Criar uma ou mais classes que contenha(m) as regras para persistir e recuperar cadastros de jogadores
 8. Documente como o projeto deve ser iniciado para que possamos rodar sua aplicação
 9. Faça o pull request do seu projeto
