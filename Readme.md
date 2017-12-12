@@ -10,7 +10,6 @@ O teste consiste em montar uma aplicação Java capaz de recuperar informações
 ## Proposta 
 
 O 'novo' sistema de cadastro de jogadores do UOL precisa de uma nova cara! Isso porque a área de lazer da empresa definiu que todo jogador deverá ter um codinome. A proposta foi um sucesso e muitos candidatos se inscreveram, por isso a área de lazer acabou restringindo os codinomes em duas listas distintas: "Os Vingadores" e "A Liga da Justiça".
-Seu desafio é elaborar um sistema em Java capaz de:
 
 Seu desafio é elaborar um sistema em Java capaz de:
 
@@ -21,6 +20,10 @@ Seu desafio é elaborar um sistema em Java capaz de:
 5. Impedir a utilização de um mesmo codinome para diferentes usuários (a menos que o codinome seja para listas diferentes)
 6. Incluir o codinome escolhido dentro das listas Os Vingadores ou A Liga da Justiça
 7. Obrigatoriamente, ler a informação do codinome em arquivos na internet (links abaixo). Atenção: não vale guardar a informação do codinome localmente (em um arquivo, em uma classe, em um banco de dados etc.)
+
+## Arquitetura de referência
+
+![alt text](https://raw.githubusercontent.com/uolhost/test-backEnd-Java/master/referencias/arquitetura.png)
 
 ## Links dos arquivos de referência
 https://raw.githubusercontent.com/uolhost/test-backEnd-Java/master/referencias/liga_da_justica.xml
