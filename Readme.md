@@ -45,9 +45,9 @@ O seu desafio é elaborar um sistema em Java capaz de:
 
 Não há certo ou errado. Queremos apenas conhecer mais sobre seus conhecimentos na linguagem Java como uso de bibliotecas públicas e também seu cuidado com o código fonte levando em consideração clareza de ideias, organização de código, documentação e testes.
 
-Faça um fork e clone deste projeto, crie um branch (com seu nome), e siga os passos:
+**Faça um fork e clone deste projeto, crie um branch (com seu nome), e siga os passos:
 
-1. Faça um fork do projeto e desenvolve um sistema que atenda os casos de uso apresentados
+1. Faça um fork do projeto e desenvolva um sistema que atenda os casos de uso apresentados
 2. Para montar seu sistema, leve em consideração a arquitetura de referência dentro da pasta referência!
 2. Criar uma interface em HTML que contenha um formulário que receba nome, email e telefone
 3. Criar uma interface em HTML que liste os jogadores cadastrados por nome, email, telefone, codinome e lista de referência
@@ -55,7 +55,7 @@ Faça um fork e clone deste projeto, crie um branch (com seu nome), e siga os pa
 5. Criar uma ou mais classes que faça(m) uma requisição HTTP para o arquivo referencia Os Vingadores em:
 6. Criar uma ou mais classes que faça(m) que contenha as regras para persistir e recuperar cadastros de jogadores
 7. Documente como o projeto deve ser iniciado para que seja possível rodarmos a sua aplicação
-8. Faça o pull request do seu projeto !
+8. Faça o pull request do seu projeto !**
 
 ## Regras
 1. Você poderá utilizar o Java em qualquer versão! :)
