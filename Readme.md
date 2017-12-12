@@ -5,13 +5,13 @@ O UOL HOST oferece soluções de Hospedagem de Sites, Loja Virtual, Loja de Apli
 ## Teste para BackEnd para UOLHOST
 Montamos esse teste para conhecer os seus conhecimentos e habilidades na linguagem Java, em programação orientada a objetos e boas práticas de programação.
 
-Esse teste consiste em montar uma aplicação Java capaz de recuperar informações de um arquivo XML ou de um arquivo JSON, persistir um cadastro em um banco de dados em meória ou em arquivo e listar os cadastros em uma interface simples.
+Esse teste consiste em montar uma aplicação Java capaz de recuperar informações de um arquivo XML ou de um arquivo JSON, persistir um cadastro em um banco de dados em memória ou em arquivo e listar os cadastros em uma interface simples.
 
 ## Proposta 
 
-O 'novo' sistema de cadastro de jogadores do UOL precisa de uma nova cara! Isso porque a área de lazer da empresa definiu que todo jogador deverá ter um codinome. Acontece que essa proposta foi um sucesso e muitos candidatos decidiram se inscrever e a área de lazer acabou restringindo os codinomes em duas listas distintas: a lista do time abóbora e a lista do time laranja.
+O 'novo' sistema de cadastro de jogadores do UOL precisa de uma nova cara! Isso porque a área de lazer da empresa definiu que todo jogador deverá ter um codinome. Acontece que essa proposta foi um sucesso e muitos candidatos decidiram se inscrever e a área de lazer acabou restringindo os codinomes em duas listas distintas: a lista do time Os Vingadores e a lista Liga da justiça.
 
-A seu desafio é elaborar um sistema em Java capaz de:
+O seu desafio é elaborar um sistema em Java capaz de:
 
 1. Permitir o cadastro de jogadores de acordo com os codinomes contidos nos links de referência vingadores.json e liga_da_justica.xml
 2. Todo cadastro deverá conter o nome, email e telefone do jogador (sendo que nome e email são obrigatórios!)
