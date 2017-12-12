@@ -9,7 +9,7 @@ Esse teste consiste em montar uma aplicação Java capaz de recuperar informaç�
 
 ## Proposta 
 
-O 'novo' sistema de cadastro de jogadores do UOL precisa de uma nova cara! Isso porque a área de lazer da empresa definiu que todo jogador deverá ter um codinome. Acontece que essa proposta foi um sucesso e muitos candidatos decidiram se inscrever e a área de lazer acabou restringindo os codinomes em duas listas distintas: a lista do time Os Vingadores e a lista Liga da justiça.
+O 'novo' sistema de cadastro de jogadores do UOL precisa de uma nova cara! Isso porque a área de lazer da empresa definiu que todo jogador deverá ter um codinome. Acontece que essa proposta foi um sucesso e muitos candidatos decidiram se inscrever e a área de lazer acabou restringindo os codinomes em duas listas distintas: o time "Os Vingadores" e a "Liga da Justiça".
 
 O seu desafio é elaborar um sistema em Java capaz de:
 
@@ -21,7 +21,7 @@ O seu desafio é elaborar um sistema em Java capaz de:
 6. O usuário não pode escolher o codinome mas ele pode escolher se quer um codinome dos Vingadores ou da Liga da Justiça
 7. Obrigatóriamente a informação do codinome precisa ser lida dos arquivos de referência. Não vale guardar a informação do codinome localmente (em um arquivo, em uma classe, em um banco de dados...);
 
-Casos de uso:
+# Casos de uso
 
 + Caso de uso: Cadastro com sucesso:
 	1. O usuário 'Felipe' cadastra seu nome, email e telefone e escolhe a lista vingadores.json 
@@ -57,7 +57,7 @@ Faça um fork e clone deste projeto, crie um branch (com seu nome), e siga os pa
 7. Documente como o projeto deve ser iniciado para que seja possível rodarmos a sua aplicação
 8. Faça o pull request do seu projeto !
 
-Regras:
+## Regras
 1. Você poderá utilizar o Java em qualquer versão! :)
 2. Você poderá utilizar quaisquer frameworks da linguagem Java! :)
 3. Para persistir as informações você poderá utilizar um banco de dados em memória gerenciado por você ou utilizar um banco como HSQLDB. 
