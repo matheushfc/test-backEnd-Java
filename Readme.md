@@ -17,9 +17,13 @@ O seu desafio é elaborar um sistema em Java capaz de:
 2. Todo cadastro deverá conter o nome, email e telefone do jogador (sendo que nome e email são obrigatórios!)
 3. A informação cadastrada deverá ser persistida em um banco de dados em memória como o HSQLDB ou como um arquivo;
 4. A qualquer momento deve ser possível obter a lista de todos os jogadores cadastrados com seus respectivos codinomes e de qual lista o codinome foi extraído;
-5. Não pode usar o mesmo codinome de uma lista para diferentes usuários! A não ser que seja de lista diferente!
-6. O usuário não pode escolher o codinome mas ele pode escolher se quer um codinome dos Vingadores ou da Liga da Justiça
-7. Obrigatóriamente a informação do codinome precisa ser lida dos arquivos na internet nos Links: . Não vale guardar a informação do codinome localmente (em um arquivo, em uma classe, em um banco de dados...);
+5. Não é permitido utilizar o mesmo codinome de uma lista para diferentes usuários! A não ser que seja de lista diferente!
+6. O codinome deve ser escolhido dentro das listas Vingadores ou da Liga da Justiça
+7. Obrigatóriamente a informação do codinome precisa ser lida dos arquivos na internet nos Links abaixo. Não vale guardar a informação do codinome localmente (em um arquivo, em uma classe, em um banco de dados...);
+
+## Links dos arquivos de referência
+https://raw.githubusercontent.com/uolhost/test-backEnd-Java/master/referencias/liga_da_justica.xml
+https://raw.githubusercontent.com/uolhost/test-backEnd-Java/master/referencias/vingadores.json
 
 ### Casos de uso
 
@@ -48,7 +52,7 @@ Não há certo ou errado. Queremos apenas conhecer mais sobre seus conhecimentos
 **Faça um fork e clone deste projeto, crie um branch (com seu nome), e siga os passos:**
 
 1. Faça um fork do projeto e desenvolva um sistema que atenda os casos de uso apresentados
-2. Para montar seu sistema, leve em consideração a arquitetura de referência dentro da pasta referência!
+2. Para montar seu sistema, leve em consideração a arquitetura de referência dentro da pasta referência! (https://github.com/uolhost/test-backEnd-Java/blob/master/referencias/arquitetura.png)
 3. Criar uma interface em HTML que contenha um formulário que receba nome, email e telefone
 4. Criar uma interface em HTML que liste os jogadores cadastrados por nome, email, telefone, codinome e lista de referência
 5. Criar uma ou mais classes que faça(m) uma requisição HTTP para o arquivo referencia Liga da Justiça em:
