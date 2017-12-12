@@ -48,6 +48,7 @@ Não há certo ou errado. Queremos apenas conhecer mais sobre seus conhecimentos
 Faça um fork e clone deste projeto, crie um branch (com seu nome), e siga os passos:
 
 1. Faça um fork do projeto e desenvolve um sistema que atenda os casos de uso apresentados
+2. Para montar seu sistema, leve em consideração a arquitetura de referência dentro da pasta referência!
 2. Criar uma interface em HTML que contenha um formulário que receba nome, email e telefone
 3. Criar uma interface em HTML que liste os jogadores cadastrados por nome, email, telefone, codinome e lista de referência
 4. Criar uma ou mais classes que faça(m) uma requisição HTTP para o arquivo referencia Liga da Justiça em:
