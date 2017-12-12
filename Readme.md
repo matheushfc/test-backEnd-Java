@@ -19,7 +19,7 @@ O seu desafio é elaborar um sistema em Java capaz de:
 4. A qualquer momento deve ser possível obter a lista de todos os jogadores cadastrados com seus respectivos codinomes e de qual lista o codinome foi extraído;
 5. Não pode usar o mesmo codinome de uma lista para diferentes usuários! A não ser que seja de lista diferente!
 6. O usuário não pode escolher o codinome mas ele pode escolher se quer um codinome dos Vingadores ou da Liga da Justiça
-7. Obrigatóriamente a informação do codinome precisa ser lida dos arquivos de referência. Não vale guardar a informação do codinome localmente (em um arquivo, em uma classe, em um banco de dados...);
+7. Obrigatóriamente a informação do codinome precisa ser lida dos arquivos na internet nos Links: . Não vale guardar a informação do codinome localmente (em um arquivo, em uma classe, em um banco de dados...);
 
 ### Casos de uso
 
