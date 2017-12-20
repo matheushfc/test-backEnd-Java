@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Cadastrar</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Cadastrar novo jogador</h1>
+<br />
+<form action="#" th:action="@{/cadastrar}" th:object="${jogador}" method="post">
+    <p>Nome: <input type="text" th:field="*{nome}" /></p>
+    <p>Email: <input type="text" th:field="*{email}" /></p>
+    <p>telefone: <input type="text" th:field="*{telefone}" /></p>
+    <p>grupo: <input type="text" th:field="*{grupo}" /></p>
+    <p>liga para Liga da Justiça</p>
+    <p>vingadores para Vingadores</p>
+
+    <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+</form>
+</body>
+</html>

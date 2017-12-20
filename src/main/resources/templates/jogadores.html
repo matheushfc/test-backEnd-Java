@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Jogadores</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Jogadores Cadastrados</h1>
+<br />
+<table border="1">
+    <tr>
+        <th>Nome</th>
+        <th>E-mail</th>
+        <th>Telefone</th>
+        <th>Codinome</th>
+        <th>Grupo</th>
+        <th></th>
+    </tr>
+    <span th:utext="${lista}"></span>
+</table>
+<br />
+<a href="/cadastrar">NOVO JOGADOR</a>
+</body>
+</html>
